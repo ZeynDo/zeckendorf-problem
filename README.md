@@ -16,7 +16,8 @@ Your challenge today is to write a program that can decompose a positive integer
 
 Sample Input
 
-	You'll be given a number N on the first line, telling you how many lines to read. You'll be given a list of N positive integers, one per line. 
+	You'll be given a number N on the first line, telling you how many lines to read. 
+	You'll be given a list of N positive integers, one per line. 
 	Example:
 
 	3
