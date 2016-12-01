@@ -1,8 +1,11 @@
+<!--- NOT WORKING FOR LARGE NUMBERS -->
+
 <!doctype html>
 <html>
 <head>
 <meta charset="UFT-8">
 <title>HTML Dokument</title>
+<script src="zeckendorf.js" type="text/javascript"></script>
 <style>
 .app {
 width: 50%;
@@ -23,14 +26,25 @@ Zeckendorf's theorem, named after Belgian mathematician Edouard Zeckendorf, is a
 Zeckendorf's theorem states that every positive integer can be represented uniquely as the sum of one or more distinct Fibonacci numbers in such a way 
 that the sum does not include any two consecutive Fibonacci numbers.
 </p>
- 
- <script>
- 
- 
- 
- </script>
- 
+
+<p>Current Version is flawed and does not work for really big numbers.</p>
+<h3>Challenge Input</h3>
+
+<p>
+<script>
+document.write(solveProblem(5)); </script><br><script>
+document.write(solveProblem(120)); </script><br><script>
+document.write(solveProblem(34)); </script><br><script>
+document.write(solveProblem(88)); </script><br><script>
+document.write(solveProblem(90)); </script><br><script>
+document.write(solveProblem(320)); 
+</script>
+<br>
+</p>
+<button onclick="alert(solveProblem(prompt()))">Convert a number into a Zeckendorf-Sequence</button>
+
 </div>
 
 </body>
 </html>
+
